@@ -7,7 +7,7 @@ The following information has been discovered between a Pytes V5α and a Victron
 * CAN protocol is set to 500kBit/s (no FD).
 * All information has been dumped on a Raspberry 4 with Venus OS v3.34 (as written above) and a waveshare RS485 CAN HAT with `cansniffer -c -t 0 can0`.
 * To test if the protocol works as expected you can use `cansend` on the Raspberry to send can messages to Venus OS. You need to send all messages, and do that in a loop, otherwise Venus OS does not show any information about the battery after some seconds.
-* Another user on the internet posted can messages from his Pytes E-Box 4850-C here: https://github.com/helgeerbe/OpenDTU-OnBattery/discussions/541#discussioncomment-9771146
+* Another user posted can messages from his Pytes E-Box 4850-C here: https://github.com/helgeerbe/OpenDTU-OnBattery/discussions/541#discussioncomment-9771146
 
 ## Pytes Communication / Identifiers
 | Id  | Hex | Ascii | Description |
